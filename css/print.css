@@ -1,0 +1,104 @@
+* {
+  background: transparent;
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@print { margin: 0.5in; }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul,
+footer {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[href^="http"] {
+  display: inline; /* sets up the link text... */
+}
+
+a[href^=http]:after {
+  content: " (" attr(href) ") ";
+}
+abbr {
+  border-bottom: 1pt dotted #222;
+}
+
+h1 {
+  font-size: 40pt;
+  text-align: center;
+  margin: 5pt 0pt 0pt 0pt;
+  padding: 0pt;
+}
+
+h2 {
+  font-size: 16pt;
+  text-align: center;
+  margin: 5pt 0pt;
+  border-bottom: solid black 1pt;
+}
+
+h3 {
+  margin: 10pt 0 5pt 0;
+}
+
+p {
+  margin: 5pt 0pt;
+}
+main > section {
+  border-bottom: solid black 2pt;
+}
+
+section > article {
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
+article:not(:last-child) {
+  border-bottom: solid gray 1pt;
+}
+
+li {
+  padding: 0;
+}
+
+ul {
+  margin: 2pt 0;
+}
+address {
+  font-style: normal;
+}
+
+address ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: solid black 1pt;
+}
+
+address ul li {
+  display: inline-block;
+}
+
+address ul li:not(:last-child):after{
+  content: '|';
+  padding: 0 5pt;
+}
+
+.bordered {
+  padding: 0 15pt;
+}

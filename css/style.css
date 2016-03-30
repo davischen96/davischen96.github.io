@@ -56,6 +56,17 @@ main > section {
   border-bottom: solid black 2px;
 }
 
+section > article {
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
 article:not(:last-child) {
   border-bottom: solid gray 1px;
 }
@@ -109,26 +120,11 @@ footer {
   margin: 0 auto;
   border: solid 1px red;
   */
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .bordered {
   /*border-radius: 5px;*/
   padding: 0 15px;
-}
-
-.alignright {
-  float: right;
-}
-
-.alignleft {
-  float: right;
-  float: left;
-}
-
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
 }

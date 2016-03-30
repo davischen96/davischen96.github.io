@@ -41,6 +41,8 @@ h2 {
   font-size: 26px;
   text-align: center;
   margin: 10px 0px;
+  border-radius: 5px;
+  border: solid gray 1px;
 }
 
 h3 {
@@ -112,6 +114,21 @@ footer {
 }
 
 .bordered {
-    border-radius: 5px;
-    padding: 0 15px;
+  /*border-radius: 5px;*/
+  padding: 0 15px;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: right;
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }

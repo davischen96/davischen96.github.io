@@ -5,7 +5,6 @@
   font-family: serif;
 }
 
-@print { margin: 0.5in; }
 body {
   margin: 0;
   padding: 0;
@@ -27,6 +26,7 @@ a[href^="http"] {
 a[href^=http]:after {
   content: " (" attr(href) ") ";
 }
+
 abbr {
   border-bottom: 1pt dotted #222;
 }
@@ -68,7 +68,7 @@ section > article {
 }
 
 article:not(:last-child) {
-  border-bottom: solid gray 1pt;
+  border-bottom: solid black 1pt;
 }
 
 li {

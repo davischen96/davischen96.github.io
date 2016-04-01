@@ -64,13 +64,6 @@ section > article {
   position: relative;
 }
 
-/*.time {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 0;
-}*/
-
 article:not(:last-child) {
   border-bottom: solid gray 1px;
 }

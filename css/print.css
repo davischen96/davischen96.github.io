@@ -20,7 +20,7 @@ a {
 }
 
 a[href^="http"] {
-  display: inline; /* sets up the link text... */
+  display: inline;
 }
 
 a[href^=http]:after {

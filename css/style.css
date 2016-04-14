@@ -56,9 +56,6 @@ h3 {
 p {
   margin: 5px 0px;
 }
-main > section {
-  border-bottom: solid black 2px;
-}
 
 section > article {
   position: relative;

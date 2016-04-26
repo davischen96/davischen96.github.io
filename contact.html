@@ -12,12 +12,22 @@
     <p>Please feel free to reach out to me by filling out the following form.</p>
 
     <form>
-      Name *
-      <input type="text" /> First Name
-      <input type="text" /> Last Name
-      Email Address *<input type="text" />
-      Message <input type="text" />
-      <input type="submit" />
+      <fieldset>
+        <legend>Contact Information</legend>
+          <label>First Name
+          <input type="text" name="firstName" id="firstName" required="required" />
+          </label>
+          <label>Last Name
+          <input type="text" name="lastName" id="lastName" required="required" />
+          </label>
+          <label>Email Address
+          <input type="text" name="emailaddress" id="emailAddress" required="required" />
+          </label>
+          <label>Message
+          <input type="text" name="message" id="message" />
+          </label>
+          <input type="submit" name="submit" id="submit" />
+      </fieldset>
     </form>
 
     <p>Contact Information</p>
@@ -58,6 +68,7 @@
       </li>
     </ul>
 
-
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/contact-form.js"></script>
   </body>
 </html>

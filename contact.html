@@ -5,70 +5,100 @@
     <title>Contact</title>
     <link href="css/style.css" rel="stylesheet" media="screen"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  </head>
-
-  <body>
-    <h1>Contact/Say Hello</h1>
-    <p>Please feel free to reach out to me by filling out the following form.</p>
-
-    <form>
-      <fieldset>
-        <legend>Contact Us!</legend>
-          <label>First Name
-          <input type="text" name="firstName" id="firstName" required="required" />
-          </label>
-          <label>Last Name
-          <input type="text" name="lastName" id="lastName" required="required" />
-          </label>
-          <label>Email Address
-          <input type="text" name="emailAddress" id="emailAddress" required="required" />
-          </label>
-          <label>Message
-          <textarea name="message" id="message"></textarea>
-          </label>
-          <input type="submit" name="submit" id="submit" value="Send" />
-      </fieldset>
-    </form>
-
-    <p>Contact Information</p>
-    <ul>
-      <li>Attn: Davis Chen</li>
-      <li>1101 Stanford Drive</li>
-      <li>Coral Gables, FL 33146</li>
-      <li>941-268-1713</li>
-      <li>dclover23@miami.edu</li>
-    </ul>
-
-    <p>Social Media</p>
-    <ul>
-      <li>
-        <a href="mailto:dclover23@miami.edu?subject=Contact Mail">
-          <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/davis-chen-188271111" target="_blank">
-          <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/davis.chen.7" target="_blank">
-          <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/davischen96" target="_blank">
-          <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="http://physics.stackexchange.com/users/112653/davis-chen" target="_blank">
-          <i class="fa fa-stack-exchange fa-lg" aria-hidden="true"></i>
-        </a>
-      </li>
-    </ul>
-
     <script src="js/jquery-2.2.2.min.js"></script>
     <script src="js/contact-form.js"></script>
+  </head>
+
+  <body id="top">
+    <div id="wrapper" class="bordered">
+
+      <header>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about_me.html">About Me</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./favorites.html">Favorites</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Contact</h1>
+        <section class="text">
+          <p>Please feel free to reach out to me by filling out the following form.</p>
+        </section>
+
+        <section id="form">
+          <form>
+            <fieldset>
+              <legend>Contact Me!</legend>
+                <label>First Name
+                <input type="text" name="firstName" id="firstName" required="required" />
+                </label>
+                <label>Last Name
+                <input type="text" name="lastName" id="lastName" required="required" />
+                </label>
+                <label>Email Address
+                <input type="text" name="emailAddress" id="emailAddress" required="required" />
+                </label>
+                <label>Message
+                <textarea name="message" id="message"></textarea>
+                </label>
+                <input type="submit" name="submit" id="submit" value="Send" />
+            </fieldset>
+          </form>
+        </section>
+
+        <section class="text" id="contact_info">
+          <p>Contact Information</p>
+          <ul>
+            <li>Attn: Davis Chen</li>
+            <li>1101 Stanford Drive</li>
+            <li>Coral Gables, FL 33146</li>
+            <li>941-268-1713</li>
+            <li>dclover23@miami.edu</li>
+          </ul>
+        </section>
+
+        <section id="icons">
+          <p>Social Media</p>
+          <ul>
+            <li>
+              <a href="mailto:dclover23@miami.edu?subject=Contact Mail">
+                <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/davis-chen-188271111" target="_blank">
+                <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/davis.chen.7" target="_blank">
+                <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/davischen96" target="_blank">
+                <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://physics.stackexchange.com/users/112653/davis-chen" target="_blank">
+                <i class="fa fa-stack-exchange fa-lg" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </main>
+    </div>
+
+    <footer>
+      
+    </footer>
+
   </body>
 </html>

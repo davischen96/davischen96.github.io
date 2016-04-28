@@ -213,3 +213,8 @@ footer {
 .bordered {
   padding: 0 15px;
 }
+
+#dog {
+  max-width: 300px;
+  max-height: 150px;
+}

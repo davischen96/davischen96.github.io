@@ -4,56 +4,58 @@
     <meta charset="UTF-8" />
     <title>Contact</title>
     <link href="css/style.css" rel="stylesheet" media="screen"/>
+    <link href="css/mobile.css" rel="stylesheet"  media="screen" />
+    <meta name="viewport" content="width=devide-width; initial-scale=1;" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <script src="js/jquery-2.2.2.min.js"></script>
-    <script src="js/contact-form.js"></script>
   </head>
 
-  <body id="top">
-    <div id="wrapper" class="bordered">
+  <body id="contact">
 
-      <header>
-        
+
+    <header>
+      <div class="img-container">
+        <img class="header-img" src="./img/sky.jpg" alt="Picture of stars" />
+        <h1 class="fadeIn">Contact</h1>
         <nav>
-          <ul>
+          <ul class="fadeIn">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about_me.html">About Me</a></li>
             <li><a href="./resume.html">Resume</a></li>
-            <li><a href="./favorites.html">Favorites</a></li>
+            <li><a href="./food.html">Food</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
+    <div id="wrapper" class="bordered">
 
-      <main>
-        <h1>Contact</h1>
-        <section class="text">
+    <main>
+
+      <h2>Say Hello</h2>
+      <div class="text">
+
+        <article id="form">
+          <h4> Contact Form </h4>
           <p>Please feel free to reach out to me by filling out the following form.</p>
-        </section>
-
-        <section id="form">
           <form>
             <fieldset>
-              <legend>Contact Me!</legend>
-                <label>First Name
-                <input type="text" name="firstName" id="firstName" required="required" />
-                </label>
-                <label>Last Name
-                <input type="text" name="lastName" id="lastName" required="required" />
-                </label>
-                <label>Email Address
-                <input type="text" name="emailAddress" id="emailAddress" required="required" />
-                </label>
-                <label>Message
-                <textarea name="message" id="message"></textarea>
-                </label>
+              <label>First Name:</label>
+              <input type="text" name="firstName" id="firstName" required="required" />
+              <label>Last Name:</label>
+              <input type="text" name="lastName" id="lastName" required="required" />
+              <label>Email Address:</label>
+              <input type="text" name="emailAddress" id="emailAddress" required="required" />
+              <label>Message:</label>
+              <textarea name="message" id="message"></textarea>
+              <div>
                 <input type="submit" name="submit" id="submit" value="Send" />
+              </div>
             </fieldset>
           </form>
-        </section>
+        </article>
 
-        <section class="text" id="contact_info">
-          <p>Contact Information</p>
+        <article id="contact_info">
+          <h4>Contact Information</h4>
           <ul>
             <li>Attn: Davis Chen</li>
             <li>1101 Stanford Drive</li>
@@ -61,45 +63,13 @@
             <li>941-268-1713</li>
             <li>dclover23@miami.edu</li>
           </ul>
-        </section>
-
-        <section id="icons">
-          <p>Social Media</p>
-          <ul>
-            <li>
-              <a href="mailto:dclover23@miami.edu?subject=Contact Mail">
-                <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/davis-chen-188271111" target="_blank">
-                <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/davis.chen.7" target="_blank">
-                <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/davischen96" target="_blank">
-                <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://physics.stackexchange.com/users/112653/davis-chen" target="_blank">
-                <i class="fa fa-stack-exchange fa-lg" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </section>
+        </article>
+      </div>
 
       </main>
     </div>
 
-    <footer>
-
-    </footer>
-
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/contact-form.js"></script>
   </body>
 </html>

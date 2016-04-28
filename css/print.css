@@ -103,3 +103,7 @@ address ul li:not(:last-child):after{
 .bordered {
   padding: 0 15pt;
 }
+
+#print {
+  display: none;
+}

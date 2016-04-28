@@ -4,44 +4,30 @@
     <meta charset="UTF-8" />
     <title>Davis Chen's Resume</title>
     <link href="css/style.css" rel="stylesheet" media="screen"/>
+    <link href="css/mobile.css" rel="stylesheet"  media="screen" />
     <link href="css/print.css" rel="stylesheet" media="print" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <meta name="viewport" content="width=devide-width; initial-scale=1;" />
   </head>
 
-  <body id="top">
-    <div id="wrapper" class="bordered">
-
+  <body id="resume">
       <header>
-        <nav>
-          <ul>
+        <div class="img-container">
+          <img id="print" class="header-img" src="./img/sky.jpg" alt="Picture of stars" />
+          <h1 class="fadeIn">Resume</h1>
+          <nav>
+            <ul class="fadeIn">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about_me.html">About Me</a></li>
             <li><a href="./resume.html">Resume</a></li>
-            <li><a href="./favorites.html">Favorites</a></li>
+            <li><a href="./food.html">Food</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
+      </div>
       </header>
 
-
-<!--     <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#honors">Honors</a></li>
-          <li><a href="#activities">Activities</a></li>
-        </ul>
- -->
-
+    <div id="wrapper" class="text">
       <main>
-        <h1>Resume</h1>
-        <address>
-          <ul>
-            <li>dclover23@miami.edu</li>
-            <li>2891 Cincinnati St., North Port, FL 34286</li>
-            <li>(941)-268-1713</li>
-          </ul>
-        </address>
 
         <section id="education">
           <h2>Education</h2>
@@ -128,8 +114,10 @@
         </section>
 
         <section id="skills">
+
           <h2>Skills</h2>
-          <ul>
+
+          <ul class="width">
             <li>Proficient in Java, Python, C, Bash and PHP</li>
             <li>Proficient in the use of Windows OS, Linux and Ubuntu</li>
             <li>Working knowledge with <strong>Database Management <abbr title="Relational Database Management System">(RDBMS)</abbr></strong> software including MySQL and Oracle</li>
@@ -137,31 +125,35 @@
             <li>Certified Paraprofessional Educator since <time datetime="2010-06">June 2010</time></li>
             <li>Experience with Inventory Cataloging and Data Analysis</li>
           </ul>
+
         </section>
 
         <section id="honors">
+
           <h2>Honors/Awards</h2>
-          <ul>
+
+          <ul class="width">
             <li>Isaac Bashevis Singer Scholarship</li>
             <li>President's Scholarship, Bright Future’s Scholarship</li>
             <li>Provost's Honor Roll, President's Honor Roll</li>
             <li>Dean's List (3 of 3)</li>
           </ul>
+
         </section>
 
         <section id="activities">
           <h2>Activities</h2>
-          <ul>
+
+
+          <ul class="width">
             <li><abbr title="Society of Asian Scientists and Engineers">SASE</abbr></li>
             <li>University of Miami Commitment Program</li>
           </ul>
+
         </section>
 
       </main>
 
-      <footer>
-        
-      </footer>
 
     </div>
 

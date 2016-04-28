@@ -6,8 +6,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #F5F3EE;
-  /*background-image: url("../img/sea.jpg");*/
-  background-size:  cover;
+  /*background-image: url("../img/sea.jpg");
+  background-size: 1900px 300px;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
